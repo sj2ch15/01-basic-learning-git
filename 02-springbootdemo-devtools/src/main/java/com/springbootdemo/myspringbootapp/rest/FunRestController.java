@@ -29,4 +29,9 @@ public class FunRestController {
 	public String getDailyWorkout() {
 		return "Do a run for 10 KM daily!!!!";
 	}
+
+	@GetMapping("/workout3")
+	public String getDailyWorkout() {
+		return "Do a run for 10 KM daily!!!!";
+	}
 }
